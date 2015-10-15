@@ -87,6 +87,10 @@ set completeopt-=preview
 set autoread
 " String to put at the start of lines that have been wrapped "
 let &showbreak='↪ '
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 set tabstop=4
 set softtabstop=4
